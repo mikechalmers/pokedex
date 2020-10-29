@@ -1,0 +1,8 @@
+.Pokegame-title {
+    color: #FFCB05;
+    text-align: center;
+    font-size: 5rem;;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #003A70;
+    margin: 0;
+  }

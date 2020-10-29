@@ -5,11 +5,29 @@
     margin: 1rem;
     box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
     text-align: center;
-    background-color: #fff;
+    color: #ffcb05;
+    background-color:#003A70;
     border-radius: 10px;
 }
 
 .Pokecard-data {
     font-size: 80%;
     text-transform: capitalize;
+}
+
+.Pokecard-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #ffcb05;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.Pokecard img {
+    transition: transform 0.5s;
+}
+.Pokecard img:hover {
+    transform: scale(1.15);
 }
