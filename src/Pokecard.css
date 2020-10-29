@@ -1,3 +1,15 @@
 .Pokecard {
-    border: 5px solid chartreuse;
+    /* border: 5px solid chartreuse; */
+    width: 400px;
+    padding: 10px;
+    margin: 1rem;
+    box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.Pokecard-data {
+    font-size: 80%;
+    text-transform: capitalize;
 }
